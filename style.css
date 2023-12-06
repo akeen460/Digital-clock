@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 1.5rem;
+
+}
+
+#colorDisplay{
+
+    width: 50%;
+    min-height: 50vh;
+    border: 2px white solid;
+    border-radius: 25px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px yellow;    
+}
+
+#demo{
+
+    color: aqua;
+    
+    font-size: 2.75rem;
+}
+
+button{
+    padding: 1rem 2.5rem;
+    color: black;
+    border-radius: 20px;
+    background-color: rgb(235, 235, 19);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 1px solid white ;
+    box-shadow: 1px 1px 5px yellow;
+}
+
+button:hover{
+    transform: translateY(2px);
+}
